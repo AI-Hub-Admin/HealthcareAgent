@@ -1,4 +1,4 @@
-# HeathcareAgent package: List of Awesome AI Healthcare Agent and Common API Interface
+# HeathcareAgent package: List of Awesome Healthcare AI Agent and Common API Interface
 
 This is the official github repo of pypi package HeathcareAgent. This repo is intended to provide common interface
 to help develop Heathcare related AI Agents workflows. 
