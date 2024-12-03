@@ -65,12 +65,10 @@ import HeathcareAgent as ha
 
 **References**
 
-[AI Agent Search: Best AI Agent and Apps Search Engine and Navigation](http://www.deepnlp.org/search/agent/) <br>
+[AI Agent Search: Best AI Agent and Apps Search Engine and Navigation](http://www.deepnlp.org/search/agent) <br>
 [Jobs in Healthcare & the Medical Field](https://www.stepful.com/post/jobs-in-healthcare-medical-field) <br>
 [List of healthcare occupations](https://en.wikipedia.org/wiki/List_of_healthcare_occupations) <br>
 [Explore Health Care Careers](https://college.mayo.edu/academics/explore-health-care-careers/careers-a-z) <br>
-
-
 
 
 ## Agents Related Pipeline Workflow and Document
