@@ -1,0 +1,191 @@
+DEBUG: ### Food Nutritions for Brand Starbucks
+DEBUG: Input query Starbucks and brandname_trie is None
+DEBUG: ## Return Item List
+[{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '85.0MG', 'Iron, Fe': '0.09MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '12.9G', 'Energy': '71.0KCAL', 'Total Sugars': '11.2G', 'Sodium, Na': '36.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '70.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.11G', 'Total lipid (fat)': '1.05G', 'Carbohydrate, by difference': '13.0G', 'Energy': '70.0KCAL', 'Total Sugars': '11.2G', 'Sodium, Na': '35.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.7G'}, {'Calcium, Ca': '74.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.22G', 'Total lipid (fat)': '1.11G', 'Carbohydrate, by difference': '13.1G', 'Energy': '72.0KCAL', 'Total Sugars': '11.4G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '35.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.74G'}, {'Protein': '7.14G', 'Total lipid (fat)': '8.93G', 'Carbohydrate, by difference': '78.6G', 'Energy': '357KCAL', 'Total Sugars': '60.7G', 'Fiber, total dietary': '10.7G', 'Calcium, Ca': '57.0MG', 'Iron, Fe': '14.3MG', 'Potassium, K': '986MG', 'Sodium, Na': '0.0MG', 'Vitamin D (D2 + D3), International Units': '0.0IU', 'Sugars, added': '57.1G', 'Cholesterol': '0.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '5.36G'}, {'Calcium, Ca': '91.0MG', 'Iron, Fe': '0.11MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '6.06G', 'Total lipid (fat)': '0.76G', 'Carbohydrate, by difference': '10.3G', 'Energy': '61.0KCAL', 'Total Sugars': '6.36G', 'Fiber, total dietary': '0.6G', 'Sodium, Na': '36.0MG', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.45G'}, {'Calcium, Ca': '91.0MG', 'Iron, Fe': '0.11MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '6.06G', 'Total lipid (fat)': '0.76G', 'Carbohydrate, by difference': '9.7G', 'Energy': '61.0KCAL', 'Total Sugars': '6.06G', 'Fiber, total dietary': '0.6G', 'Sodium, Na': '36.0MG', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.45G'}, {'Calcium, Ca': '91.0MG', 'Iron, Fe': '0.11MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '6.06G', 'Total lipid (fat)': '0.76G', 'Carbohydrate, by difference': '10.0G', 'Energy': '64.0KCAL', 'Total Sugars': '6.06G', 'Fiber, total dietary': '0.6G', 'Sodium, Na': '35.0MG', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.45G'}, {'Calcium, Ca': '91.0MG', 'Iron, Fe': '0.11MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '6.06G', 'Total lipid (fat)': '0.76G', 'Carbohydrate, by difference': '10.3G', 'Energy': '64.0KCAL', 'Total Sugars': '6.06G', 'Fiber, total dietary': '0.6G', 'Sodium, Na': '35.0MG', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.45G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '46.0MG', 'Iron, Fe': '0.11MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '1.54G', 'Total lipid (fat)': '1.38G', 'Carbohydrate, by difference': '7.38G', 'Energy': '46.0KCAL', 'Total Sugars': '6.46G', 'Sodium, Na': '52.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.77G'}, {'Calcium, Ca': '90.0MG', 'Iron, Fe': '0.08MG', 'Vitamin A, IU': '90.0IU', 'Vitamin D (D2 + D3), International Units': '18.0IU', 'Vitamin C, total ascorbic acid': '6.8MG', 'Riboflavin': '0.767MG', 'Niacin': '9.03MG', 'Vitamin B-6': '0.903MG', 'Protein': '2.26G', 'Total lipid (fat)': '0.68G', 'Carbohydrate, by difference': '7.67G', 'Energy': '45.0KCAL', 'Total Sugars': '6.55G', 'Fiber, total dietary': '0.2G', 'Potassium, K': '237MG', 'Sodium, Na': '38.0MG', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.34G'}, {'Calcium, Ca': '90.0MG', 'Iron, Fe': '0.08MG', 'Vitamin A, IU': '90.0IU', 'Vitamin D (D2 + D3), International Units': '18.0IU', 'Vitamin C, total ascorbic acid': '6.8MG', 'Riboflavin': '0.767MG', 'Niacin': '9.03MG', 'Vitamin B-6': '0.903MG', 'Protein': '2.26G', 'Total lipid (fat)': '0.68G', 'Carbohydrate, by difference': '7.67G', 'Energy': '45.0KCAL', 'Total Sugars': '6.55G', 'Fiber, total dietary': '0.2G', 'Potassium, K': '237MG', 'Sodium, Na': '38.0MG', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.34G'}, {'Fiber, total dietary': '0.0G', 'Iron, Fe': '0.0MG', 'Protein': '2.15G', 'Total lipid (fat)': '0.62G', 'Carbohydrate, by difference': '7.08G', 'Energy': '43.0KCAL', 'Total Sugars': '5.85G', 'Calcium, Ca': '90.0MG', 'Potassium, K': '237MG', 'Sodium, Na': '35.0MG', 'Riboflavin': '0.769MG', 'Niacin': '8.92MG', 'Vitamin B-6': '0.892MG', 'Sugars, added': '2.5G', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.31G'}, {'Iron, Fe': '0.0MG', 'Protein': '2.15G', 'Total lipid (fat)': '0.62G', 'Carbohydrate, by difference': '6.77G', 'Energy': '43.0KCAL', 'Total Sugars': '5.85G', 'Calcium, Ca': '90.0MG', 'Potassium, K': '237MG', 'Sodium, Na': '35.0MG', 'Riboflavin': '0.769MG', 'Niacin': '8.92MG', 'Vitamin B-6': '0.892MG', 'Sugars, added': '2.5G', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.31G'}, {'Calcium, Ca': '72.0MG', 'Iron, Fe': '0.17MG', 'Vitamin A, IU': '24.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.42G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '9.9G', 'Energy': '60.0KCAL', 'Total Sugars': '9.18G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '68.0MG', 'Cholesterol': '4.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.72G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '60.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '24.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '1.93G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '8.7G', 'Energy': '53.0KCAL', 'Total Sugars': '8.21G', 'Sodium, Na': '27.0MG', 'Cholesterol': '4.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.72G'}, {'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.18MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.43G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '13.1G', 'Energy': '73.0KCAL', 'Total Sugars': '11.4G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '18.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '30.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.3G', 'Total lipid (fat)': '0.15G', 'Carbohydrate, by difference': '6.97G', 'Energy': '33.0KCAL', 'Total Sugars': '6.36G', 'Sodium, Na': '6.0MG', 'Cholesterol': '2.0MG', 'Fatty acids, total trans': '0.0G'}, {'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '6.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '16.9MG', 'Niacin': '2.25MG', 'Pantothenic acid': '1.27MG', 'Vitamin B-6': '0.254MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '6.2G', 'Energy': '25.0KCAL', 'Total Sugars': '5.35G', 'Sodium, Na': '13.0MG', 'Fatty acids, total trans': '0.0G'}, {'Protein': '0.28G', 'Total lipid (fat)': '0.0G', 'Carbohydrate, by difference': '0.83G', 'Energy': '6.0KCAL', 'Potassium, K': '107MG', 'Sodium, Na': '0.0MG', 'Thiamin': '0.0MG', 'Niacin': '0.833MG', 'Pantothenic acid': '0.278MG', 'Biotin': '2.0UG', 'Vitamin B-12': '0.14UG'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '52.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '1.56G', 'Total lipid (fat)': '2.08G', 'Carbohydrate, by difference': '2.6G', 'Energy': '36.0KCAL', 'Total Sugars': '2.6G', 'Sodium, Na': '26.0MG', 'Cholesterol': '8.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '1.3G'}, {'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '0.0MG', 'Iron, Fe': '0.0MG', 'Sodium, Na': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '7.81G', 'Energy': '31.0KCAL', 'Total Sugars': '7.29G', 'Fatty acids, total trans': '0.0G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '78.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.08G', 'Total lipid (fat)': '2.6G', 'Carbohydrate, by difference': '9.38G', 'Energy': '73.0KCAL', 'Total Sugars': '8.85G', 'Sodium, Na': '70.0MG', 'Cholesterol': '10.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '1.82G'}, {'Protein': '2.66G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '10.9G', 'Energy': '65.0KCAL', 'Total Sugars': '10.1G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '85.0MG', 'Iron, Fe': '0.09MG', 'Sodium, Na': '46.0MG', 'Vitamin A, IU': '24.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Cholesterol': '4.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.72G'}, {'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '0.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '3.4MG', 'Niacin': '1.41MG', 'Pantothenic acid': '0.704MG', 'Vitamin B-6': '0.141MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '7.61G', 'Energy': '25.0KCAL', 'Total Sugars': '5.63G', 'Sodium, Na': '1.0MG', 'Fatty acids, total trans': '0.0G'}, {'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '6.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '16.9MG', 'Niacin': '2.25MG', 'Pantothenic acid': '1.27MG', 'Vitamin B-6': '0.254MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '6.2G', 'Energy': '25.0KCAL', 'Total Sugars': '5.35G', 'Sodium, Na': '13.0MG', 'Fatty acids, total trans': '0.0G'}, {'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '6.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '85.0IU', 'Vitamin C, total ascorbic acid': '16.9MG', 'Niacin': '2.25MG', 'Pantothenic acid': '1.27MG', 'Vitamin B-6': '0.254MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '6.2G', 'Energy': '25.0KCAL', 'Total Sugars': '5.63G', 'Sodium, Na': '13.0MG', 'Fatty acids, total trans': '0.0G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '85.0MG', 'Iron, Fe': '0.09MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '12.9G', 'Energy': '71.0KCAL', 'Total Sugars': '11.2G', 'Sodium, Na': '39.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}, {'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.09MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '11.4G', 'Energy': '63.0KCAL', 'Total Sugars': '11.0G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '70.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.11G', 'Total lipid (fat)': '1.05G', 'Carbohydrate, by difference': '11.6G', 'Energy': '63.0KCAL', 'Total Sugars': '10.9G', 'Sodium, Na': '33.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.7G'}, {'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.18MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.43G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '13.1G', 'Energy': '73.0KCAL', 'Total Sugars': '11.4G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}, {'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '12.9G', 'Energy': '71.0KCAL', 'Total Sugars': '11.2G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}, {'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '12.9G', 'Energy': '71.0KCAL', 'Total Sugars': '11.2G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}, {'Fiber, total dietary': '0.0G', 'Calcium, Ca': '484MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '323IU', 'Vitamin C, total ascorbic acid': '7.7MG', 'Protein': '12.9G', 'Total lipid (fat)': '11.3G', 'Carbohydrate, by difference': '67.7G', 'Energy': '419KCAL', 'Total Sugars': '61.3G', 'Sodium, Na': '210MG', 'Cholesterol': '32.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '6.45G'}]
+DEBUG: ## Return Item Dict
+{'CHILLED COFFEE DRINK': [{'Calcium, Ca': '74.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.22G', 'Total lipid (fat)': '1.11G', 'Carbohydrate, by difference': '13.1G', 'Energy': '72.0KCAL', 'Total Sugars': '11.4G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '35.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.74G'}], 'CLASSIC HOT COCOA MIX, CLASSIC': [{'Protein': '7.14G', 'Total lipid (fat)': '8.93G', 'Carbohydrate, by difference': '78.6G', 'Energy': '357KCAL', 'Total Sugars': '60.7G', 'Fiber, total dietary': '10.7G', 'Calcium, Ca': '57.0MG', 'Iron, Fe': '14.3MG', 'Potassium, K': '986MG', 'Sodium, Na': '0.0MG', 'Vitamin D (D2 + D3), International Units': '0.0IU', 'Sugars, added': '57.1G', 'Cholesterol': '0.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '5.36G'}], 'COFFEE & PROTEIN BEVERAGE': [{'Calcium, Ca': '91.0MG', 'Iron, Fe': '0.11MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '6.06G', 'Total lipid (fat)': '0.76G', 'Carbohydrate, by difference': '10.3G', 'Energy': '64.0KCAL', 'Total Sugars': '6.06G', 'Fiber, total dietary': '0.6G', 'Sodium, Na': '35.0MG', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.45G'}], 'COLD BREW PREMIUM COFFEE DRINK WITH CREAM': [{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '46.0MG', 'Iron, Fe': '0.11MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '1.54G', 'Total lipid (fat)': '1.38G', 'Carbohydrate, by difference': '7.38G', 'Energy': '46.0KCAL', 'Total Sugars': '6.46G', 'Sodium, Na': '52.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.77G'}], 'ENERGY COFFEE BEVERAGE': [{'Iron, Fe': '0.0MG', 'Protein': '2.15G', 'Total lipid (fat)': '0.62G', 'Carbohydrate, by difference': '6.77G', 'Energy': '43.0KCAL', 'Total Sugars': '5.85G', 'Calcium, Ca': '90.0MG', 'Potassium, K': '237MG', 'Sodium, Na': '35.0MG', 'Riboflavin': '0.769MG', 'Niacin': '8.92MG', 'Vitamin B-6': '0.892MG', 'Sugars, added': '2.5G', 'Cholesterol': '3.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.31G'}], 'ESPRESSO BEVERAGE': [{'Calcium, Ca': '72.0MG', 'Iron, Fe': '0.17MG', 'Vitamin A, IU': '24.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.42G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '9.9G', 'Energy': '60.0KCAL', 'Total Sugars': '9.18G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '68.0MG', 'Cholesterol': '4.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.72G'}], 'ESPRESSO BEVERAGE, SMOKED BUTTERSCOTCH LATTE': [{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '60.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '24.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '1.93G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '8.7G', 'Energy': '53.0KCAL', 'Total Sugars': '8.21G', 'Sodium, Na': '27.0MG', 'Cholesterol': '4.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.72G'}], 'FRAPPUCCINO CHILLED COFFEE DRINK': [{'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.18MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.43G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '13.1G', 'Energy': '73.0KCAL', 'Total Sugars': '11.4G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}], 'ICED COFFEE': [{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '18.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '30.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.3G', 'Total lipid (fat)': '0.15G', 'Carbohydrate, by difference': '6.97G', 'Energy': '33.0KCAL', 'Total Sugars': '6.36G', 'Sodium, Na': '6.0MG', 'Cholesterol': '2.0MG', 'Fatty acids, total trans': '0.0G'}], 'JUICE BLEND DRINK FROM CONCENTRATE': [{'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '6.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '16.9MG', 'Niacin': '2.25MG', 'Pantothenic acid': '1.27MG', 'Vitamin B-6': '0.254MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '6.2G', 'Energy': '25.0KCAL', 'Total Sugars': '5.35G', 'Sodium, Na': '13.0MG', 'Fatty acids, total trans': '0.0G'}], 'MEDIUM ROAST HOUSE BLEND 100% ARABICA GROUND COFFEE WITH ESSENTIAL B VITAMINS, HOUSE BLEND': [{'Protein': '0.28G', 'Total lipid (fat)': '0.0G', 'Carbohydrate, by difference': '0.83G', 'Energy': '6.0KCAL', 'Potassium, K': '107MG', 'Sodium, Na': '0.0MG', 'Thiamin': '0.0MG', 'Niacin': '0.833MG', 'Pantothenic acid': '0.278MG', 'Biotin': '2.0UG', 'Vitamin B-12': '0.14UG'}], 'PREMIUM ESPRESSO BEVERAGE': [{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '78.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.08G', 'Total lipid (fat)': '2.6G', 'Carbohydrate, by difference': '9.38G', 'Energy': '73.0KCAL', 'Total Sugars': '8.85G', 'Sodium, Na': '70.0MG', 'Cholesterol': '10.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '1.82G'}], 'PUMPKIN SPICE LATTE ICED ESPRESSO BEVERAGE, PUMPKIN SPICE LATTE': [{'Protein': '2.66G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '10.9G', 'Energy': '65.0KCAL', 'Total Sugars': '10.1G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '85.0MG', 'Iron, Fe': '0.09MG', 'Sodium, Na': '46.0MG', 'Vitamin A, IU': '24.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Cholesterol': '4.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.72G'}], 'SPARKLING GREEN COFFEE ENERGY BEVERAGE': [{'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '0.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '3.4MG', 'Niacin': '1.41MG', 'Pantothenic acid': '0.704MG', 'Vitamin B-6': '0.141MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '7.61G', 'Energy': '25.0KCAL', 'Total Sugars': '5.63G', 'Sodium, Na': '1.0MG', 'Fatty acids, total trans': '0.0G'}], 'SPARKLING JUICE BLEND': [{'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '6.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '16.9MG', 'Niacin': '2.25MG', 'Pantothenic acid': '1.27MG', 'Vitamin B-6': '0.254MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '6.2G', 'Energy': '25.0KCAL', 'Total Sugars': '5.35G', 'Sodium, Na': '13.0MG', 'Fatty acids, total trans': '0.0G'}], 'SPARKLING JUICE BLEND FROM CONCENTRATE': [{'Total lipid (fat)': '0.0G', 'Fiber, total dietary': '0.0G', 'Calcium, Ca': '6.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '85.0IU', 'Vitamin C, total ascorbic acid': '16.9MG', 'Niacin': '2.25MG', 'Pantothenic acid': '1.27MG', 'Vitamin B-6': '0.254MG', 'Cholesterol': '0.0MG', 'Fatty acids, total saturated': '0.0G', 'Protein': '0.0G', 'Carbohydrate, by difference': '6.2G', 'Energy': '25.0KCAL', 'Total Sugars': '5.63G', 'Sodium, Na': '13.0MG', 'Fatty acids, total trans': '0.0G'}], 'STARBUCKS, FRAPPUCCINO, CHILLED COFFEE DRINK': [{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '85.0MG', 'Iron, Fe': '0.09MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '12.9G', 'Energy': '71.0KCAL', 'Total Sugars': '11.2G', 'Sodium, Na': '39.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}], 'STARBUCKS, FRAPPUCCINO, CHILLED COFFEE DRINK , MOCHA': [{'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.09MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '11.4G', 'Energy': '63.0KCAL', 'Total Sugars': '11.0G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}], 'STARBUCKS, FRAPPUCCINO, CHILLED COFFEE DRINK, MOCHA': [{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '70.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.11G', 'Total lipid (fat)': '1.05G', 'Carbohydrate, by difference': '11.6G', 'Energy': '63.0KCAL', 'Total Sugars': '10.9G', 'Sodium, Na': '33.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.7G'}], 'STARBUCKS, FRAPPUCCINO, CHILLED COFFEE DRINK, MOCHA COCONUT': [{'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.18MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.43G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '13.1G', 'Energy': '73.0KCAL', 'Total Sugars': '11.4G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}], "STARBUCKS, FRAPPUCCINO, CHILLED COFFEE DRINK, S'MORES": [{'Calcium, Ca': '73.0MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '0.0IU', 'Vitamin C, total ascorbic acid': '0.0MG', 'Protein': '2.19G', 'Total lipid (fat)': '1.09G', 'Carbohydrate, by difference': '12.9G', 'Energy': '71.0KCAL', 'Total Sugars': '11.2G', 'Fiber, total dietary': '0.2G', 'Sodium, Na': '34.0MG', 'Cholesterol': '5.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '0.73G'}], 'VANILLA LATTE VIA INSTANT': [{'Fiber, total dietary': '0.0G', 'Calcium, Ca': '484MG', 'Iron, Fe': '0.0MG', 'Vitamin A, IU': '323IU', 'Vitamin C, total ascorbic acid': '7.7MG', 'Protein': '12.9G', 'Total lipid (fat)': '11.3G', 'Carbohydrate, by difference': '67.7G', 'Energy': '419KCAL', 'Total Sugars': '61.3G', 'Sodium, Na': '210MG', 'Cholesterol': '32.0MG', 'Fatty acids, total trans': '0.0G', 'Fatty acids, total saturated': '6.45G'}]}
+DEBUG: ## Return Item Print Pretty
+1. CHILLED COFFEE DRINK
+$$Starbucks CHILLED COFFEE DRINK(#image)$$
+Every 100g:
+Energy72.0KCALCalcium, Ca74.0MG
+Iron, Fe0.0MG
+Vitamin A, IU0.0IU
+Vitamin C, total ascorbic acid0.0MG
+Protein2.22G
+Total lipid (fat)1.11G
+Carbohydrate, by difference13.1G
+Total Sugars11.4G
+Fiber, total dietary0.2G
+Sodium, Na35.0MG
+Cholesterol5.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated0.74G
+
+
+2. CLASSIC HOT COCOA MIX, CLASSIC
+$$Starbucks CLASSIC HOT COCOA MIX, CLASSIC(#image)$$
+Every 100g:
+Energy357KCALProtein7.14G
+Total lipid (fat)8.93G
+Carbohydrate, by difference78.6G
+Total Sugars60.7G
+Fiber, total dietary10.7G
+Calcium, Ca57.0MG
+Iron, Fe14.3MG
+Potassium, K986MG
+Sodium, Na0.0MG
+Vitamin D (D2 + D3), International Units0.0IU
+Sugars, added57.1G
+Cholesterol0.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated5.36G
+
+
+3. COFFEE & PROTEIN BEVERAGE
+$$Starbucks COFFEE & PROTEIN BEVERAGE(#image)$$
+Every 100g:
+Energy64.0KCALCalcium, Ca91.0MG
+Iron, Fe0.11MG
+Vitamin A, IU0.0IU
+Vitamin C, total ascorbic acid0.0MG
+Protein6.06G
+Total lipid (fat)0.76G
+Carbohydrate, by difference10.3G
+Total Sugars6.06G
+Fiber, total dietary0.6G
+Sodium, Na35.0MG
+Cholesterol3.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated0.45G
+
+
+4. COLD BREW PREMIUM COFFEE DRINK WITH CREAM
+$$Starbucks COLD BREW PREMIUM COFFEE DRINK WITH CREAM(#image)$$
+Every 100g:
+Energy46.0KCALFiber, total dietary0.0G
+Calcium, Ca46.0MG
+Iron, Fe0.11MG
+Vitamin A, IU0.0IU
+Vitamin C, total ascorbic acid0.0MG
+Protein1.54G
+Total lipid (fat)1.38G
+Carbohydrate, by difference7.38G
+Total Sugars6.46G
+Sodium, Na52.0MG
+Cholesterol5.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated0.77G
+
+
+5. ENERGY COFFEE BEVERAGE
+$$Starbucks ENERGY COFFEE BEVERAGE(#image)$$
+Every 100g:
+Energy43.0KCALIron, Fe0.0MG
+Protein2.15G
+Total lipid (fat)0.62G
+Carbohydrate, by difference6.77G
+Total Sugars5.85G
+Calcium, Ca90.0MG
+Potassium, K237MG
+Sodium, Na35.0MG
+Riboflavin0.769MG
+Niacin8.92MG
+Vitamin B-60.892MG
+Sugars, added2.5G
+Cholesterol3.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated0.31G
+
+
+6. ESPRESSO BEVERAGE
+$$Starbucks ESPRESSO BEVERAGE(#image)$$
+Every 100g:
+Energy60.0KCALCalcium, Ca72.0MG
+Iron, Fe0.17MG
+Vitamin A, IU24.0IU
+Vitamin C, total ascorbic acid0.0MG
+Protein2.42G
+Total lipid (fat)1.09G
+Carbohydrate, by difference9.9G
+Total Sugars9.18G
+Fiber, total dietary0.2G
+Sodium, Na68.0MG
+Cholesterol4.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated0.72G
+
+
+7. ESPRESSO BEVERAGE, SMOKED BUTTERSCOTCH LATTE
+$$Starbucks ESPRESSO BEVERAGE, SMOKED BUTTERSCOTCH LATTE(#image)$$
+Every 100g:
+Energy53.0KCALFiber, total dietary0.0G
+Calcium, Ca60.0MG
+Iron, Fe0.0MG
+Vitamin A, IU24.0IU
+Vitamin C, total ascorbic acid0.0MG
+Protein1.93G
+Total lipid (fat)1.09G
+Carbohydrate, by difference8.7G
+Total Sugars8.21G
+Sodium, Na27.0MG
+Cholesterol4.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated0.72G
+
+
+8. FRAPPUCCINO CHILLED COFFEE DRINK
+$$Starbucks FRAPPUCCINO CHILLED COFFEE DRINK(#image)$$
+Every 100g:
+Energy73.0KCALCalcium, Ca73.0MG
+Iron, Fe0.18MG
+Vitamin A, IU0.0IU
+Vitamin C, total ascorbic acid0.0MG
+Protein2.43G
+Total lipid (fat)1.09G
+Carbohydrate, by difference13.1G
+Total Sugars11.4G
+Fiber, total dietary0.2G
+Sodium, Na34.0MG
+Cholesterol5.0MG
+Fatty acids, total trans0.0G
+Fatty acids, total saturated0.73G
+
+
+9. ICED COFFEE
+$$Starbucks ICED COFFEE(#image)$$
+Every 100g:
+Energy33.0KCALFiber, total dietary0.0G
+Calcium, Ca18.0MG
+Iron, Fe0.0MG
+Vitamin A, IU30.0IU
+Vitamin C, total ascorbic acid0.0MG
+Fatty acids, total saturated0.0G
+Protein0.3G
+Total lipid (fat)0.15G
+Carbohydrate, by difference6.97G
+Total Sugars6.36G
+Sodium, Na6.0MG
+Cholesterol2.0MG
+Fatty acids, total trans0.0G
+
+
+10. JUICE BLEND DRINK FROM CONCENTRATE
+$$Starbucks JUICE BLEND DRINK FROM CONCENTRATE(#image)$$
+Every 100g:
+Energy25.0KCALTotal lipid (fat)0.0G
+Fiber, total dietary0.0G
+Calcium, Ca6.0MG
+Iron, Fe0.0MG
+Vitamin A, IU0.0IU
+Vitamin C, total ascorbic acid16.9MG
+Niacin2.25MG
+Pantothenic acid1.27MG
+Vitamin B-60.254MG
+Cholesterol0.0MG
+Fatty acids, total saturated0.0G
+Protein0.0G
+Carbohydrate, by difference6.2G
+Total Sugars5.35G
+Sodium, Na13.0MG
+Fatty acids, total trans0.0G
