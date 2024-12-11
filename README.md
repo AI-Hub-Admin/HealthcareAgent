@@ -20,8 +20,8 @@ Here are some key professionals whose workflow and productivity can be improved 
 
 ### AI Agent for Healthcare Types and Awesome Projects
 
-|  Application  | AI Agent| Description   |
-| -------------- | ------- | ---------- |
+| Application  | AI Agent| Description   |
+|  ----  | ----  | ----  |
 |  Clinical Decision Support  | [IBM Watson Health](https://www.ibm.com/industries/healthcare) |  Helps analyze medical literature and patient data to provide evidence-based treatment recommendations. | 
 |  Clinical Decision Support  | [Infermedica](https://infermedica.com/) |  Provides diagnostic support and triage for healthcare professionals. | 
 |  Clinical Decision Support  | [Buoy Health](https://www.buoyhealth.com/) |  A chatbot for symptom checking and guiding users to appropriate care. | 
