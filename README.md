@@ -19,6 +19,7 @@ Here are some key professionals whose workflow and productivity can be improved 
 
 
 ### AI Agent for Healthcare Types and Awesome Projects
+
 |  Application  | AI Agent| Description   |
 | -------------- | ------- | ---------- |
 |  Clinical Decision Support  | [IBM Watson Health](https://www.ibm.com/industries/healthcare) |  Helps analyze medical literature and patient data to provide evidence-based treatment recommendations. | 
